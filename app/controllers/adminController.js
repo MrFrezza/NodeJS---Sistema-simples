@@ -13,7 +13,7 @@ module.exports.noticias_salvar = function(app, req, res){
 	req.assert('noticia', 'Noticia é obrigatório').notEmpty();
 
 	var erros = req.validationErrors();
-
+	
 	if(erros){
 		res.render("admin/form_add_noticia", {validacao : erros, noticia : noticia});
 		return;
