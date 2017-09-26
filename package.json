@@ -1,0 +1,21 @@
+{
+  "name": "portalnoticias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.5",
+    "mysql": "^2.14.1",
+    "validador": "^0.1.6",
+    "express-validator": "^3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fer",
+  "license": "ISC"
+}
